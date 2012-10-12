@@ -1,0 +1,15 @@
+{
+  "name": "darktone-tip",
+  "repo": "colinf/darktone-tip",
+  "description": "Darktone Tip theme",
+  "version": "0.0.1",
+  "keywords": ["darktone", "theme", "tip"],
+  "dependencies": {},
+  "development": {
+    "component/tip": "*",
+    "component/jquery": "*"
+  },
+  "styles": [
+    "style.css"
+  ]
+}

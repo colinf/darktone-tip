@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>darktone-tip exammple</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="build/build.css" type="text/css">
+    <style>
+      body {
+        font: 14px "Helvetica Neue", Helvetica, Arial;
+        padding: 80px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Darktone calendar</h1>
+    <a href="#" id="beer">More beer</a>
+    <script src="build/build.js"></script>
+    <script>
+      var o = require('component-jquery');
+      var Tip = require('component-tip');
+      Tip.effect = 'fade';
+      var tip = new Tip('Feeling tipsy?').position('south');
+      o('#beer').click(function() {
+        tip.show('#beer');
+      });
+    </script>
+  </body>
+</html>
