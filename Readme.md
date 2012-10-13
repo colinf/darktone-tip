@@ -5,7 +5,7 @@
 
   This is a theme for the [tip component](https://github.com/component/tip).
 
-  ![](http://f.cl.ly/items/2q443F2L0k2g1H3J142V/Image%202012.10.03%2016:19:48.png)
+  ![](http://f.cl.ly/items/3A1n3M1D2v1U2w331N09/Screen%20Shot%202012-10-13%20at%2014.51.13.png)
 
   It's part of a series of Darktone theme components and you may also wish to use the following:
 
@@ -19,7 +19,7 @@ You can quickly install the component into your project using the following comm
 ```
 $ component install colinf/darktone-tip
 ```
-But the best way to use it is to amend your component.json file to add the theme as a dependency. You can then use the *component build* command to install the required components.
+But the best way to use it is to amend your component.json file to add the theme as a dependency. You can then use the `component build` command to install the required components.
 
 Make sure that you list **colinf/darktone-tip** after **component/tip** in your dependencies so that the styles from the theme override the styles in the tip component itself. Below is an example extract from a component.json which uses the darktone tip theme.
 

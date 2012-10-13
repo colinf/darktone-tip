@@ -1,8 +1,7 @@
 {
   "name": "darktone-tip",
-  "repo": "colinf/darktone-tip",
-  "description": "Darktone Tip theme",
   "version": "0.0.1",
+  "description": "Darktone Tip theme",
   "keywords": ["darktone", "theme", "tip"],
   "dependencies": {},
   "development": {
@@ -11,5 +10,6 @@
   },
   "styles": [
     "style.css"
-  ]
+  ],
+  "repo": "https://raw.github.com/colinf/darktone-tip"
 }
