@@ -5,11 +5,11 @@
   "keywords": ["darktone", "theme", "tip"],
   "dependencies": {},
   "development": {
-    "component/tip": "*",
-    "component/jquery": "*"
+    "component/tip": "b7504d1e3b7b074400e0ac3546685e95ad20d250",
+    "component/jquery": "1.8.2"
   },
   "styles": [
     "style.css"
   ],
-  "repo": "https://raw.github.com/colinf/darktone-tip"
+  "repo": "colinf/darktone-tip"
 }

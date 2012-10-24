@@ -15,19 +15,18 @@
 
 ## Installation
 
-You can quickly install the component into your project using the following command from the root.
+You can quickly install the component into your project using the following command from the project root.
 ```
 $ component install colinf/darktone-tip
 ```
 But the best way to use it is to amend your component.json file to add the theme as a dependency. You can then use the `component build` command to install the required components.
 
-Make sure that you list **colinf/darktone-tip** after **component/tip** in your dependencies so that the styles from the theme override the styles in the tip component itself. Below is an example extract from a component.json which uses the darktone tip theme.
+Make sure that you list **colinf/darktone-tip** after **component/tip** in your dependencies so that the styles from the theme override any styles in the tip component itself. Below is an example extract from a component.json which uses the darktone tip theme.
 
 ```json
 "dependencies": {
   "component/tip": "*",
-  "colinf/darktone-tip": "*",
-  "component/jquery": "*"
+  "colinf/darktone-tip": "*"
 }
 ```
 # License

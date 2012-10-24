@@ -1,11 +1,15 @@
 :root {
   var-bg-color: #4c4c4c;
+  var-bgh-color: #4c4c4c;
 }
 .tip {
   font-size: 1em;
 }
 .tip-inner {
-  background: var(bg-color);
+  background: -webkit-linear-gradient(var(bgh-color), var(bg-color), var(bgh-color));
+  background: -moz-linear-gradient(var(bgh-color), var(bg-color), var(bgh-color));
+  background: -ms-linear-gradient(var(bgh-color), var(bg-color), var(bgh-color));
+  background: -o-linear-gradient(var(bgh-color), var(bg-color), var(bgh-color));
   color: #fff;
   padding: 8px 10px 7px 10px;
   text-align: center;
@@ -16,7 +20,7 @@
   width: 0;
   height: 0;
   line-height: 0;
-  border: 5px dashed var(bg-color);
+  border: 5px dashed var(bgh-color);
 }
   
 .tip-arrow-south { border-bottom-color: var(bg-color) }
