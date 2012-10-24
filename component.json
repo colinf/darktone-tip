@@ -5,8 +5,8 @@
   "keywords": ["darktone", "theme", "tip"],
   "dependencies": {},
   "development": {
-    "component/tip": "b7504d1e3b7b074400e0ac3546685e95ad20d250",
-    "component/jquery": "1.8.2"
+    "component/tip": "*",
+    "component/jquery": "*"
   },
   "styles": [
     "style.css"
