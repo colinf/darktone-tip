@@ -20,7 +20,7 @@
   width: 0;
   height: 0;
   line-height: 0;
-  border: 5px dashed var(bgh-color);
+  border: 5px dashed var(bg-color);
 }
   
 .tip-arrow-south { border-bottom-color: var(bg-color) }
