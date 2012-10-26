@@ -11,7 +11,8 @@
   background: -ms-linear-gradient(var(bgh-color), var(bg-color), var(bgh-color));
   background: -o-linear-gradient(var(bgh-color), var(bg-color), var(bgh-color));
   color: #fff;
-  padding: 8px 10px 7px 10px;
+  max-width: 200px;
+  padding: 8px 6px 7px 6px;
   text-align: center;
   border-radius: 3px;
 }

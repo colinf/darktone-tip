@@ -13,7 +13,8 @@
   background: -ms-linear-gradient(#5c5c5c, #4c4c4c, #5c5c5c);
   background: -o-linear-gradient(#5c5c5c, #4c4c4c, #5c5c5c);
   color: #fff;
-  padding: 8px 10px 7px 10px;
+  max-width: 200px;
+  padding: 8px 6px 7px 6px;
   text-align: center;
   -o-border-radius: 3px;
   -ms-border-radius: 3px;
