@@ -1,15 +1,15 @@
 :root {
+  var-bgl-color: #3f3f3f;
   var-bg-color: #4c4c4c;
-  var-bgh-color: #5c5c5c;
 }
 .tip {
   font-size: 1em;
 }
 .tip-inner {
-  background: -webkit-linear-gradient(var(bgh-color), var(bg-color), var(bgh-color));
-  background: -moz-linear-gradient(var(bgh-color), var(bg-color), var(bgh-color));
-  background: -ms-linear-gradient(var(bgh-color), var(bg-color), var(bgh-color));
-  background: -o-linear-gradient(var(bgh-color), var(bg-color), var(bgh-color));
+  background: -webkit-linear-gradient(var(bg-color), var(bgl-color), var(bg-color));
+  background: -moz-linear-gradient(var(bg-color), var(bgl-color), var(bg-color));
+  background: -ms-linear-gradient(var(bg-color), var(bgl-color), var(bg-color));
+  background: -o-linear-gradient(var(bg-color), var(bgl-color), var(bg-color));
   color: #fff;
   max-width: 200px;
   padding: 8px 6px 7px 6px;
