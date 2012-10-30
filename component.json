@@ -1,8 +1,13 @@
 {
   "name": "darktone-tip",
+  "repo": "colinf/darktone-tip",
   "version": "0.0.1",
   "description": "Darktone Tip theme",
-  "keywords": ["darktone", "theme", "tip"],
+  "keywords": [
+    "darktone",
+    "theme",
+    "tip"
+  ],
   "dependencies": {},
   "development": {
     "component/tip": "*",
@@ -11,5 +16,5 @@
   "styles": [
     "style.css"
   ],
-  "repo": "colinf/darktone-tip"
+  "license": "MIT"
 }
