@@ -5,7 +5,7 @@
 
   This is a theme for the [tip component](https://github.com/component/tip).
 
-  ![](http://f.cl.ly/items/1M2s41200H3l3H130X3x/Screen%20Shot%202012-10-24%20at%2011.09.56.png)
+  ![](http://f.cl.ly/items/0s0r04423d3s2g2K3h37/Screen%20Shot%202012-10-30%20at%2011.44.57.png)
 
   It's part of a series of Darktone theme components and you may also wish to use the following:
 
